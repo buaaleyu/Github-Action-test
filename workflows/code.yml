@@ -1,0 +1,11 @@
+name:code
+on: [push, pull_request]
+jobs:
+  my_first_job:
+    name: My first job
+    runs-on: ubuntu-18.04
+    steps:
+    - name: checkout
+      uses: actions/checkout@master
+    - name: Run a single-line script
+      run: echo "Welcome to my Github!"
