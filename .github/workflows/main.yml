@@ -33,4 +33,4 @@ jobs:
           java-version: 1.8
       - name: test
         run: |
-          javac Main.java
+          javac main.java
